@@ -70,3 +70,38 @@
 
 // MATH EXPRESSIONS 
 
+// var num1 = +prompt ('enter number for adition');
+// var num2 = +prompt ('enter number for adition');
+// var add = (num1 + num2);
+// document.write(' Sum of ' + num1 + ' and ' + num2 + ' is ' + add);
+
+// var num1 = prompt ('enter number for subtraction');
+// var num2 = prompt ('enter number for subtraction');
+// var add = (num1 - num2);
+// document.write(' Sum of ' + num1 + ' and ' + num2 + ' is ' + add);
+
+// var num1 = prompt ('enter number for multiplication');
+// var num2 = prompt ('enter number for multiplication');
+// var add = (num1 * num2);
+// document.write(' Sum of ' + num1 + ' and ' + num2 + ' is ' + add);
+
+// var num1 = prompt ('enter number for division');
+// var num2 = prompt ('enter number for division');
+// var add = (num1 / num2);
+// document.write(' Sum of ' + num1 + ' and ' + num2 + ' is ' + add);
+
+var value = value + prompt ('enter value');
+document.write('Value after variable declaration is:' + value + '<br>' );
+var value2 = +prompt ('enter initial value')
+document.write('Initial value:  ' + value2 + '<br>')
+var increment = +prompt ('enter increment value ');
+var add = value2+increment;
+document.write('Value after increment is:' + add + '<br>');
+var add1 = +prompt ('enter adition value') ;
+var add2 = add+add1
+document.write('Value after add '+ add1+' is ' + add2 + '<br>')
+var decrement = prompt ('enter decrement value');
+var decrement1 = add2-decrement;
+document.write(' Value after decrement is ' + decrement1 + '<br>')
+var reminder = decrement1 % 3;
+document.write(' The remainder is ' + reminder);
