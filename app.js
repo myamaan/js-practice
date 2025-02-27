@@ -90,18 +90,22 @@
 // var add = (num1 / num2);
 // document.write(' Sum of ' + num1 + ' and ' + num2 + ' is ' + add);
 
-var value = value + prompt ('enter value');
-document.write('Value after variable declaration is:' + value + '<br>' );
-var value2 = +prompt ('enter initial value')
-document.write('Initial value:  ' + value2 + '<br>')
-var increment = +prompt ('enter increment value ');
-var add = value2+increment;
-document.write('Value after increment is:' + add + '<br>');
-var add1 = +prompt ('enter adition value') ;
-var add2 = add+add1
-document.write('Value after add '+ add1+' is ' + add2 + '<br>')
-var decrement = prompt ('enter decrement value');
-var decrement1 = add2-decrement;
-document.write(' Value after decrement is ' + decrement1 + '<br>')
-var reminder = decrement1 % 3;
-document.write(' The remainder is ' + reminder);
+// var value = value + prompt ('enter value');
+// document.write('Value after variable declaration is:' + value + '<br>' );
+// var value2 = +prompt ('enter initial value')
+// document.write('Initial value:  ' + value2 + '<br>')
+// var increment = +prompt ('enter increment value ');
+// var add = value2+increment;
+// document.write('Value after increment is:' + add + '<br>');
+// var add1 = +prompt ('enter adition value') ;
+// var add2 = add+add1
+// document.write('Value after add '+ add1+' is ' + add2 + '<br>')
+// var decrement = prompt ('enter decrement value');
+// var decrement1 = add2-decrement;
+// document.write(' Value after decrement is ' + decrement1 + '<br>')
+// var reminder = decrement1 % 3;
+// document.write(' The remainder is ' + reminder);
+
+var quantity = +prompt ('enter tickets quantity');
+var cost = quantity*600;
+document.write('The cost of buy '+ quantity + ' tickets to a movie is '+ cost+ ' PKR ');
