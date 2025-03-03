@@ -131,3 +131,51 @@
 // var farhenaite = +prompt ('enter farhenite to convert celsius');
 // var celsius = (farhenaite-32)*5/9;
 // document.write(farhenaite + ' oF is ' + celsius + 'oC');
+
+// SHOPPING CART
+
+// var price1 = +prompt('enter price of item 1');
+// var quantity1 = +prompt('enter quantity of item 1');
+// var price2 = +prompt('enter price of item 2');
+// var quantity2 = +prompt ('enter quantity of item 2');
+// var shipping = +prompt ('enter shipping charges');
+// document.write('Price of item 1 is ' + price1 + '<br>');
+// document.write(' Quantity of item 1 is ' + quantity1 + '<br>');
+// document.write('Price of item 2 is ' + price2 + '<br>');
+// document.write(' Quantity of item 2 is ' + quantity2 + '<br>');
+// document.write(' Shipping charges ' + shipping +  '<br>' )
+// var cost1 = (price1 * quantity1);
+// var cost2 = (price2 * quantity2);
+// var cost3 = (cost1 + cost2);
+// var totalCost = (cost3 + shipping)
+// document.write('The total cost of your order is ' + totalCost);
+
+// MARK SHEET
+
+// var totalMarks = +prompt('enter your total marks');
+// document.write('Total marks ' + totalMarks + '<br>');
+// var obtainedMarks = +prompt('enter your obtained marks');
+// document.write('Obtained marks ' + obtainedMarks + '<br>');
+// var remarks = (obtainedMarks / totalMarks * 100);
+// document.write('Percentage ' + remarks +'%');
+
+// Currency in pkr
+
+// var usd = prompt('enter ammount of USD');
+// var usd1 = (usd * 279.75);
+// var sr = prompt('enter ammount of SR');
+// var sr1 = (sr * 74.59);
+// var totalAmount = (usd1 + sr1);
+// document.write('Total currency in PKR : ' + totalAmount);
+
+// AGE CALCULATER;
+
+// var currentYear = prompt('enter your current age year');
+// document.write('Current age year ' + currentYear + '<br>');
+// var birthYear = prompt('enter your current birth year');
+// document.write('Birth year ' + birthYear + '<br>');
+// var age = (currentYear - birthYear);
+// document.write('Your age is ' + age);
+
+
+
